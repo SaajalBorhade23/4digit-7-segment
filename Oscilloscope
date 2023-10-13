@@ -1,0 +1,6 @@
+import time
+import matplotlib.pyplot as plt
+from drawnow import *
+import Adafruit_ADS1x15
+adc = Adafruit_ADS1x15.ADS1115()
+GAIN = 1
